@@ -117,7 +117,6 @@ definitions:
         example: Register success
         type: string
     type: object
-host: localhost:8099
 info:
   contact:
     email: indra@ulbi.ac.id
@@ -325,6 +324,7 @@ paths:
       - Auth
 schemes:
 - http
+- https
 securityDefinitions:
   BearerAuth:
     in: header
